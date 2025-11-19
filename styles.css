@@ -61,7 +61,6 @@ body {
 
 .borderless {
     border: none;
-    padding:0;
 }
 
 .format-img {
@@ -81,5 +80,8 @@ body {
     padding-bottom: 8px;
 }
 
-
+.shrink {
+    width:fit-content;
+    margin-right: auto;
+}
 
