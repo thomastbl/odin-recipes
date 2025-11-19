@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+.style1,
+.style2 {
+    border: solid rgb(47, 47, 47);
+    color: rgb(47, 47, 47);
+}
+
+.style1 {
+    background-color: rgb(255, 218, 96);
+}
+
+.borderless {
+    border: none;
+}
+
+.increase-font {
+    font-size: large;
+}
+
+.standard {
+    padding: 16px;
+    margin: 16px;
+}
+
+.element-list {
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+#title {
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+}
+
+#subtitle {
+    padding: 16px;
+    margin: 16px 48px;
+    text-align: center;
+}
+
