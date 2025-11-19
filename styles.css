@@ -2,10 +2,16 @@ html {
     box-sizing: border-box;
 }
 
-* {
+*,
+::before,
+::after {
     box-sizing: inherit;
     padding: 0;
     margin: 0;
+}
+
+body {
+    font-family: Trebuchet MS, sans-serif;
 }
 
 .style1,
@@ -18,17 +24,56 @@ html {
     background-color: rgb(255, 218, 96);
 }
 
-.borderless {
-    border: none;
-}
-
 .increase-font {
     font-size: large;
 }
 
-.standard {
+.standard, 
+.title {
     padding: 16px;
     margin: 16px;
+}
+
+.title {
+    text-align: center;
+}
+
+.subtitle,
+.text {
+    padding: 16px;
+    text-align: left;
+}
+
+.subtitle {
+    margin: 16px 48px;
+}
+
+.text {
+    margin: 16px 24px;
+}
+
+.little-subtitle {
+    padding: 8px;
+    margin: 16px 48px;
+    text-align: left;
+    font-size: small;
+}
+
+.borderless {
+    border: none;
+    padding:0;
+}
+
+.format-img {
+    display: block;
+    margin: 16px auto;
+    border: 8px solid rgb(47, 47, 47);
+}
+
+.navlink {
+    display:inline-block;
+    margin-top: -10px;
+    margin-bottom: 0;
 }
 
 .element-list {
@@ -36,15 +81,5 @@ html {
     padding-bottom: 8px;
 }
 
-#title {
-    padding: 16px;
-    margin: 16px;
-    text-align: center;
-}
 
-#subtitle {
-    padding: 16px;
-    margin: 16px 48px;
-    text-align: center;
-}
 
